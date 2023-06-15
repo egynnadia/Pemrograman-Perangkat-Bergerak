@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HalamanMateri"
+    android:background="@drawable/login_page">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/head_title"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="27sp"
+            android:text="JUDUL"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/head_title"
+        android:layout_width="350dp"
+        android:layout_height="690dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_centerInParent="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="match_parent">
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/isi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:justificationMode="inter_word"
+                android:textSize="17sp"
+                android:text="ISI"
+                android:layout_centerInParent="true"/>
+
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oslearn.Kuis"
+    android:background="@drawable/login_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="HALAMAN KUIS"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item1"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/kuis"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="true"
+                android:text="kuis 1"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectkuis1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="@dimen/cardview_compat_inset_shadow"
+                app:cardBackgroundColor="#6C60D2"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item2"
+            android:layout_below="@+id/item1"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/kuis2"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="true"
+                android:text="kuis 2"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectKuis2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="@dimen/cardview_compat_inset_shadow"
+                app:cardBackgroundColor="#6C60D2"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item3"
+            android:layout_below="@+id/item2"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/kuis3"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="true"
+                android:text="kuis 3"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectKuis3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="@dimen/cardview_compat_inset_shadow"
+                app:cardBackgroundColor="#6C60D2"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item4"
+            android:layout_below="@+id/item3"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/kuis4"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="true"
+                android:text="kuis 4"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectKuis4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="@dimen/cardview_compat_inset_shadow"
+                app:cardBackgroundColor="#6C60D2"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item5"
+            android:layout_below="@+id/item4"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/kuis5"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="true"
+                android:text="kuis 5"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectKuis5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="@dimen/cardview_compat_inset_shadow"
+                app:cardBackgroundColor="#6C60D2"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/item6"
+            android:layout_below="@+id/item5"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="15dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/kuis6"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="21sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="true"
+                android:text="kuis 6"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/selectKuis6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="15dp"
+                app:cardElevation="@dimen/cardview_compat_inset_shadow"
+                app:cardBackgroundColor="#6C60D2"
+                app:cardCornerRadius="90dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/arrow"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

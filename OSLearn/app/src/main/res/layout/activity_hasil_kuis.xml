@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilKuis"
+    android:background="@drawable/bg_result">
+    
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="470dp"
+        android:layout_centerInParent="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#F5F5F5"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELAMAT! KAMU SUDAH MENYELESAIKAN KUIS INI"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#252525"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/bg_score"/>
+
+            <TextView
+                android:id="@+id/skor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#252525"
+                android:text="100"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:id="@+id/totalBenar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="350dp"
+                android:textStyle="bold"
+                android:textColor="#252525"
+                android:text="4/5 Jawaban Benar"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/selesai"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="400dp"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="#41A600"
+                android:text="Selesai"
+                />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

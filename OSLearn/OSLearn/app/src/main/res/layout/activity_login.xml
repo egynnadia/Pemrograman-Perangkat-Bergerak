@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_page">
+
+    <ImageView
+        android:layout_width="261dp"
+        android:layout_height="249dp"
+        android:src="@drawable/login"
+        android:viewportWidth="261"
+        android:viewportHeight="249"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/login_to_yo"
+        android:layout_width="342dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/login_to_yo"
+        android:textAppearance="@style/login_to_yo"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="281dp"
+        tools:ignore="MissingConstraints,TextSizeCheck"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="113dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="@string/email"
+        android:textAppearance="@style/email"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="377dp"
+        tools:ignore="MissingConstraints,VisualLintOverlap" />
+
+    <EditText
+        android:id="@+id/logTextEmailAddress"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="417dp"
+        tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_below="@+id/logTextEmailAddress"
+        android:layout_width="122.38dp"
+        android:layout_height="56.68dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:text="@string/password"
+        android:textAppearance="@style/password"
+        android:layout_marginStart="42dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/logTextPassword"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,MissingConstraints,SpeakableTextPresentCheck"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/password"
+        android:autofillHints="" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:text="@string/login"
+        android:textSize="14sp"
+        android:layout_marginStart="107dp"
+        android:layout_below="@+id/logTextPassword"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/SignUp_Link"
+        android:layout_width="190dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/don_t_have_"
+        android:textAppearance="@style/don_t_have_"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="670dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_google"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints,VisualLintBounds"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="699dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo_fb"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="699dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
+
+
+</RelativeLayout>

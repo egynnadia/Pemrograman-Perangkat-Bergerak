@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "577587860194",
+    "project_id": "oslearn-fee4d",
+    "storage_bucket": "oslearn-fee4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577587860194:android:4b489e935c6902443e84bb",
+        "android_client_info": {
+          "package_name": "com.example.oslearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577587860194-35aginhp8sss7e8cbdpi4qag53kfl4o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkBAWUO7S-yQFaxjz_mP7_0PbULl12sJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577587860194-35aginhp8sss7e8cbdpi4qag53kfl4o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
